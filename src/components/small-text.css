@@ -1,0 +1,9 @@
+.small-text {
+  font-size: 12px;
+  line-height: 18px;
+  display: block;
+  font-weight: 300;
+  margin: 10px 3px;
+  color: silver;
+  text-align: center;
+}

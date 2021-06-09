@@ -1,0 +1,36 @@
+.btn {
+  font-style: normal;
+  font-weight: 300;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  font-size: 24px;
+  line-height: 45px;
+  padding: 0 10px;
+  position: relative;
+  transition: all 0.15s linear;
+  width: 120px;
+  border: none;
+  background-color: #00bf5f;
+  border-color: #00bf5f;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  text-decoration: none;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.back {
+  background-color: #aeb9b3;
+}
+
+@media (min-width: 350px) {
+  .btn {
+    width: 143px;
+  }
+}

@@ -1,0 +1,21 @@
+.progress {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #e9ecef;
+  min-height: 8px;
+  -webkit-box-shadow: rgb(0 0 0 / 10%) 0 1px 2px inset;
+  box-shadow: rgb(0 0 0 / 10%) 0 1px 2px inset;
+  overflow: hidden;
+}
+.progress-bar {
+  background-color: #00bf5f;
+  height: 8px;
+  transition: width 0.6s ease;
+}
+
+@media (min-width: 768px) {
+  .progress,
+  .progress-bar {
+    min-height: 16px;
+  }
+}

@@ -1,0 +1,61 @@
+.radio-container {
+  width: 100%;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  background-color: #ededed;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+.radio-container:hover {
+  background-color: #aeb9b3;
+}
+.label {
+  background-color: transparent;
+  cursor: pointer;
+  display: table;
+  font-weight: 300;
+  line-height: 1;
+  position: relative;
+  transition: all 0.15s linear;
+  white-space: normal;
+  width: 100%;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.radio {
+  border: none;
+  opacity: 0%;
+}
+
+.radio:checked ~ .circle {
+  background-color: #54c060;
+  pointer-events: none;
+  height: 15px;
+  width: 15px;
+  transition: border ease 0.15s;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -7.5px;
+  margin-left: 10px;
+  background-size: 40px;
+  border-radius: 100%;
+}
+.circle {
+  content: " ";
+  background-color: #fff;
+  pointer-events: none;
+  height: 15px;
+  width: 15px;
+  transition: border ease 0.15s;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -7.5px;
+  margin-left: 10px;
+  background-size: 40px;
+  border-radius: 100%;
+}

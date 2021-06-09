@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mobeats-challenge/static/css/main.76b16a44.chunk.css",
+    "main.js": "/mobeats-challenge/static/js/main.51ab3a92.chunk.js",
+    "main.js.map": "/mobeats-challenge/static/js/main.51ab3a92.chunk.js.map",
+    "runtime-main.js": "/mobeats-challenge/static/js/runtime-main.bb8dc135.js",
+    "runtime-main.js.map": "/mobeats-challenge/static/js/runtime-main.bb8dc135.js.map",
+    "static/js/2.14376138.chunk.js": "/mobeats-challenge/static/js/2.14376138.chunk.js",
+    "static/js/2.14376138.chunk.js.map": "/mobeats-challenge/static/js/2.14376138.chunk.js.map",
+    "index.html": "/mobeats-challenge/index.html",
+    "static/css/main.76b16a44.chunk.css.map": "/mobeats-challenge/static/css/main.76b16a44.chunk.css.map",
+    "static/js/2.14376138.chunk.js.LICENSE.txt": "/mobeats-challenge/static/js/2.14376138.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb8dc135.js",
+    "static/js/2.14376138.chunk.js",
+    "static/css/main.76b16a44.chunk.css",
+    "static/js/main.51ab3a92.chunk.js"
+  ]
+}
